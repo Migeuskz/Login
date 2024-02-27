@@ -1,0 +1,76 @@
+
+body{
+    /* background-color: #3a0c79; */
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../img/fondo1.gif);
+    background-size: cover;
+    border: none;
+}
+
+form{
+    /* border:solid white; */
+    display: grid;
+    align-items: center;
+}
+
+.container{
+    /* border: solid white; */
+    background-color: transparent;
+    background-image: linear-gradient(to top, rgba(157, 53, 177, 0.961), rgba(23, 56, 220, 0.957));
+    display: grid;
+    align-items: center;
+    height: 45rem;
+    width: 35rem;
+    justify-content: space-around;
+    border-radius: 2rem;
+    
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+}
+
+.container label{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 1.3rem;
+}
+
+.container input{
+    border-radius: 2rem;
+    border: none;
+    width:25rem;
+    height: 2.5rem;
+    text-align: center;
+}
+
+.submit:hover{
+    background-color: #d61257c9;
+}
+
+.container p{
+    padding: .8rem;
+    color: white;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    
+}
+
+.submit{
+    background-color: #d61258 ;
+    color:white;
+    font-weight: bold;
+}
